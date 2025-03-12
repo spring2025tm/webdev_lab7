@@ -21,7 +21,7 @@ body {
   margin-top: 2rem;
 }
 #planet-name {
-  font-family: font-family: "Andale Mono", "Monaco", monospace;
+  font-family: "Andale Mono", "Monaco", monospace;
   color: #60A5FA; /*light blue*/
   text-align: center;
 }
