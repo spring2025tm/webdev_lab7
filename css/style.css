@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color:  #f4f4f4; /*light grey*/
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  line-height: 1.6;
+}
+#page-header {
+  background-color:  #60A5FA;
+  font-weight: 700;
+  color: #1E3A8A; /*Dark blue*/
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+#planets {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+#planet-name {
+  font-family: font-family: "Andale Mono", "Monaco", monospace;
+  color: #60A5FA; /*light blue*/
+  text-align: center;
+}
+.fact-row {
+  text-align: center;
+  background-color: #ffffff; /*white*/
+  padding: 1rem 0;
+}
+td, th {
+  border: 1px solid #ddd; 
+  padding: 1rem;
+  }
+tr:nth-child(even) {
+  background-color: #f9f9f9; ;
+}
+td  img {
+  border: 0.25rem solid #1E3A8A;
+  max-width: 12rem;
+  height: auto;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+  
+  
