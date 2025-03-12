@@ -13,6 +13,7 @@ body {
   font-weight: 700;
   color: #1E3A8A; /*Dark blue*/
   font-family: 'Roboto', 'Helvetica', sans-serif;
+  text-align: center;
 }
 #planets {
   width: 100%;
@@ -36,7 +37,7 @@ td, th {
 tr:nth-child(even) {
   background-color: #f9f9f9; ;
 }
-td  img {
+td img {
   border: 0.25rem solid #1E3A8A;
   max-width: 12rem;
   height: auto;
