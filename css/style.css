@@ -9,7 +9,7 @@ body {
   line-height: 1.6;
 }
 #page-header {
-  background-color:  #60A5FA;
+  background-color:  #60A5FA; /*cyan*/
   font-weight: 700;
   color: #1E3A8A; /*Dark blue*/
   font-family: 'Roboto', 'Helvetica', sans-serif;
@@ -45,4 +45,13 @@ td  img {
 td img:hover {
   transform: scale(1.05);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+#page-footer {
+  background-color: #60A5FA; /*cyan*/
+  font-weight: 700;
+  color: #1E3A8A; /*Dark blue*/
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  border-top: 0.1px solid #ddd;
+  text-align: center;
 }
